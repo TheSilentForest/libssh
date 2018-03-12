@@ -1,3 +1,8 @@
+WARNING: This is a fork of the libssh library. There is no guarantee the API
+will be the same and some behaviour might be broken.
+If you are looking for the original library you should download it from:
+https://www.libssh.org/get-it/
+
   _   _   _                          _
  (_) (_) (_)                        (_)
  (_)  _  (_) _         _  _   _  _  (_) _
