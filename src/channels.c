@@ -1944,7 +1944,7 @@ error:
   return rc;
 }
 
-static ssh_channel ssh_channel_accept(ssh_session session, int channeltype,
+ssh_channel ssh_channel_accept(ssh_session session, int channeltype,
     int timeout_ms, int *destination_port) {
 #ifndef _WIN32
   static const struct timespec ts = {

@@ -389,6 +389,7 @@ enum ssh_connector_flags_e {
 };
 
 LIBSSH_API int ssh_blocking_flush(ssh_session session, int timeout);
+LIBSSH_API ssh_channel ssh_channel_accept(ssh_session session, int channeltype, int timeout_ms, int *destination_port);
 LIBSSH_API ssh_channel ssh_channel_accept_x11(ssh_channel channel, int timeout_ms);
 LIBSSH_API int ssh_channel_change_pty_size(ssh_channel channel,int cols,int rows);
 LIBSSH_API int ssh_channel_close(ssh_channel channel);
